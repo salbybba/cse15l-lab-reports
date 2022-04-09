@@ -94,9 +94,8 @@ One thing that would be different from your terminal and the photo above is that
 ```$ ssh-keygen```
 
 After the next prompt type the following (replace ```abbyblas``` with your own username):
-```
-$ /Users/abbyblas/.ssh/id_rsa
-```
+
+```$ /Users/abbyblas/.ssh/id_rsa```
 When the terminal prompts you to enter a password, just press enter. Repeat this when it asks for the password again. Next, log into your server account and enter the following command:
 
 ```$ mkdir .ssh```
