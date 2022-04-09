@@ -83,7 +83,9 @@ You will see that the code displays the client username. After this, type the fo
 scp Username.java cs15lsp22ajy@ucsd.edu:~/
 ```
 
-At this point, you should be able to log into the server account and use the ```ls``` command to see that ```Username.java``` is now in the directory. You can then run the previous ```javac``` and ```java``` commands to see that it now outputs the servers username instead.
+At this point, you should be able to log into the server account and use the ```ls``` command to see that ```Username.java``` is now in the directory. You can then run the previous ```javac``` and ```java``` commands to see that it now outputs the servers username instead. If you completed all of these steps right, your terminal shoud look somewhat like this:
+
+![](terminalss3.png)
 
 ## Setting an SSH Key
 
