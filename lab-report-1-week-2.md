@@ -45,7 +45,14 @@ Your terminal should look something like this:
 ![](terminalss.png)
 
 
+At this point, you can start testing out command that will be useful to know. Good commands to start with would be ```cd```, ```ls```, ```pwd```, ```mkdir```, and ```cp```.
 
+Testing out a commad will look like this:
+
+![](terminalss2.png)
+
+
+As you can tell from the image above, the ```ls``` command will produce a list of files in the directory that you are currently in.
 
 ## Moving files with ```scp```
 
