@@ -1,5 +1,6 @@
 # Lab Report 1 Week 2
 
+Follow the instructions below to connect to a remote server.
 
 ## Installing Visual Studio Code
 
