@@ -29,7 +29,7 @@ My username is **cs15lsp22ajy**. Your own course username will allow you to begi
 
 You will be asked:
 
-```Are you sure you want to continue connecting ```
+```Are you sure you want to continue connecting```
 
 ```(yes/no/[fingerprint])```
 
