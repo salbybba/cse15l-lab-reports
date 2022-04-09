@@ -110,6 +110,6 @@ This should allow you to use ```ssh``` and ```scp``` commands without needing yo
 
 ## Optimize Remote Running
 
-Running ```ssh``` and ```scp``` commands is way more pleasant without the need of a password. Something that makes it even better is the fact that you can run commands without needing to log into the server at all. This is done using ```""```. For instance running the ```ls``` command in the *server* through the *client* account could be done like this:
-
-```$ ssh cs15lsp22ajy@ieng6.ucsd.edu "ls"```
+Running ```ssh``` and ```scp``` commands is way more pleasant without the need of a password. There are two other ways of making running commands even better:
+* You can run commands without needing to log into the server at all. This is done using quotation marks (```""```).
+* You can run several commands in one line by using a semicolon (```;```) between the commands.
