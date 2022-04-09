@@ -1,4 +1,4 @@
-# Hello World!
+# Hello VSCode
 
 ## This is basic syntax in markdown
 **Markdown** *seems* super easy.
@@ -20,5 +20,6 @@
 
 ```
 code block
+System.out.println("Java")
 ```
 
