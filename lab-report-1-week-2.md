@@ -23,7 +23,7 @@ You will be able to find your course-specific account for CSE 15L [here](https:/
 ![](etsss.png)
 
 
-With this username, you'll be able to connect to the SSH remote host.
+This username will allow to begin connecting remotely. 
 
 ## Trying Some Commands
 
