@@ -56,6 +56,8 @@ As you can tell from the image above, the ```ls``` command will produce a list o
 
 ## Moving files with ```scp```
 
+An important thing to note when setting up your ssh connection is that you are connecting to a computer that is outside your own. In our case, this is a computer in the CSE basement. When setting up a connection with a computer outside your own, we refer to your computer as the *client* and the outside computer as the *server*. When using a client and server, we use the ```scp``` command in order to transfer files between the accounts.
+
 ## Setting an SSH Key
 
 ## Optimize Remote Running
