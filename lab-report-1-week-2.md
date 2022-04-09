@@ -1,7 +1,11 @@
 # Lab Report 1 Week 2
-[link version one](https://github.com/salbybba/cse15l-lab-reports)
 
 ## Installing Visual Studio Code
+
+Go to [Visual Studio Code](https://code.visualstudio.com/) and install the IDE.
+![](vscodess.png)
+
+
 
 ## Remotely Connecting
 
