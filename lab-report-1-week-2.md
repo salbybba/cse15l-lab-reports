@@ -23,7 +23,7 @@ You will be able to find your course-specific account for CSE 15L [here](https:/
 ![](etsss.png)
 
 
-My username is **cs15lsp22ajy**. Your course username will allow you to begin connecting remotely. Next, you should open a terminal in VSCode (a shortcut for this would be Ctrl + `) and type the following command. You should use your own username.
+My username is **cs15lsp22ajy**. Your own course username will allow you to begin connecting remotely. Next, you should open a terminal in VSCode (a shortcut for this would be Ctrl + `) and type the following command. You should use your own username.
 
 ```$ ssh cs15lsp22ajy@ieng6.ucsd.edu```
 
@@ -33,9 +33,9 @@ You will be asked:
 
 ```(yes/no/[fingerprint])```
 
-type ```yes``` and press enter to contiue setting up your SSH connection.
+Type ```yes``` and press enter to contiue setting up your SSH connection.
 
-At this point, you should be prompted to enter your password. Once you do, you are now remotely connected!
+At this point, you should be prompted to enter your password. Once you do, you are remotely connected!
 
 ## Trying Some Commands
 
@@ -47,7 +47,7 @@ Your terminal should look something like this:
 
 At this point, you can start testing out command that will be useful to know. Good commands to start with would be ```cd```, ```ls```, ```pwd```, ```mkdir```, and ```cp```.
 
-Testing out a commad will look like this:
+Testing out a command will look like this:
 
 ![](terminalss2.png)
 
