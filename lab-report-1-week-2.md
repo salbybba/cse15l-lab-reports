@@ -102,15 +102,14 @@ When the terminal prompts you to enter a password, just press enter. Repeat this
 ```$ mkdir .ssh```
 
 You can use the ```exit``` command to logout and reenter the client terminal. In the client terminal, type the following (replacing my usernames with your own):
-```
-$ scp /Users/abbyblas/.ssh/id_rsa.pub cs15lsp22ajy@ieng6.ucsd.edu:~/.ssh/authorized_keys
-```
+
+```$ scp /Users/abbyblas/.ssh/id_rsa.pub cs15lsp22ajy@ieng6.ucsd.edu:~/.ssh/authorized_keys```
+
 This should allow you to use ```ssh``` and ```scp``` commands without needing your password.
 
 
 ## Optimize Remote Running
 
 Running ```ssh``` and ```scp``` commands is way more pleasant without the need of a password. Something that makes it even better is the fact that you can run commands without needing to log into the server at all. This is done using ```""```. For instance running the ```ls``` command in the *server* through the *client* account could be done like this:
-```
-$ ssh cs15lsp22ajy@ieng6.ucsd.edu "ls"
-```
+
+```$ ssh cs15lsp22ajy@ieng6.ucsd.edu "ls"```
