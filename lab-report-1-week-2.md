@@ -4,7 +4,7 @@
 
 Go to [Visual Studio Code](https://code.visualstudio.com/) and install the IDE.
 ![](vscodess.png)
-
+After installing VSCode, you can open the installation and it should automatically prompt you to begin coding.
 
 
 ## Remotely Connecting
