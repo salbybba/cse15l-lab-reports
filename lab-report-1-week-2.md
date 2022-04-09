@@ -39,6 +39,14 @@ At this point, you should be prompted to enter your password. Once you do, you a
 
 ## Trying Some Commands
 
+Your terminal should look something like this:
+
+
+![](terminalss.png)
+
+
+
+
 ## Moving files with ```scp```
 
 ## Setting an SSH Key
