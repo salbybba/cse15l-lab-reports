@@ -113,3 +113,5 @@ This should allow you to use ```ssh``` and ```scp``` commands without needing yo
 Running ```ssh``` and ```scp``` commands is way more pleasant without the need of a password. There are two other ways of making running commands even better:
 * You can run commands without needing to log into the server at all. This is done using quotation marks (```""```).
 * You can run several commands in one line by using a semicolon (```;```) between the commands.
+
+![](terminalss4.png)
