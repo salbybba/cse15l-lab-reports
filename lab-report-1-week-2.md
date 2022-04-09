@@ -33,6 +33,7 @@ You will be asked:
 
 ```(yes/no/[fingerprint])```
 
+
 Type ```yes``` and press enter to contiue setting up your SSH connection.
 
 At this point, you should be prompted to enter your password. Once you do, you are remotely connected!
