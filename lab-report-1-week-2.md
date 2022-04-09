@@ -89,7 +89,9 @@ At this point, you should be able to log into the server account and use the ```
 
 ## Setting an SSH Key
 
-One thing that would be different from your terminal and the photo above is that the photo above does not show the user being asked for a password for the server account. This makes moving files and logging onto the server much quicker and easier. You can start this process by entering the following code into your client terminal:
+![](terminalss5.png)
+
+In the photo above, you can see that I did not need to type my password to use the ```ssh``` command. This makes moving files and logging onto the server much quicker and easier. You can start this process by entering the following code into your client terminal:
 
 ```$ ssh-keygen```
 
