@@ -56,7 +56,34 @@ As you can tell from the image above, the ```ls``` command will produce a list o
 
 ## Moving files with ```scp```
 
-An important thing to note when setting up your ssh connection is that you are connecting to a computer that is outside your own. In our case, this is a computer in the CSE basement. When setting up a connection with a computer outside your own, we refer to your computer as the *client* and the outside computer as the *server*. When using a client and server, we use the ```scp``` command in order to transfer files between the accounts.
+An important thing to note when setting up your ssh connection is that you are connecting to a computer that is outside your own. In our case, this is a computer in the CSE basement. When setting up a connection with a computer outside your own, your computer is refered to as the *client* and the outside computer as the *server*. When using a client and server, we use the ```scp``` command on the *client* terminal to transfer files between the accounts.
+
+We can test this by creating a file on your computer called ```Username.java```
+
+Paste this into the file you created:
+
+```
+class Username {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("user.name"));
+  }
+}
+```
+
+Once the file is saved, you can run it from your terminal to see what it outputs. do this by typing the following commands:
+
+```
+$ javac Username.java
+$ java Username
+```
+
+You will see that the code displays the client username. After this, type the following ```scp``` command and log into your server account.
+
+```
+scp Username.java cs15lsp22ajy@ucsd.edu:~/
+```
+
+At this point, you should be able to log into the server account and use the ```ls``` command to see that ```Username.java``` is now in the directory. You can then run the previous ```javac``` and ```java``` commands to see that it now outputs the servers username instead.
 
 ## Setting an SSH Key
 
