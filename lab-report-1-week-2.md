@@ -83,7 +83,7 @@ $ java Username
 You will see that the code displays the client username. After this, type the following ```scp``` command and log into your server account.
 
 ```
-scp Username.java cs15lsp22ajy@ucsd.edu:~/
+$ scp Username.java cs15lsp22ajy@ucsd.edu:~/
 ```
 
 At this point, you should be able to log into the server account and use the ```ls``` command to see that ```Username.java``` is now in the directory. You can then run the previous ```javac``` and ```java``` commands to see that it now outputs the servers username instead. If you completed all of these steps right, your terminal shoud look somewhat like this:
@@ -91,5 +91,24 @@ At this point, you should be able to log into the server account and use the ```
 ![](terminalss3.png)
 
 ## Setting an SSH Key
+
+One thing that would be different from your terminal and the photo above is that the photo above does not show the user being asked for a password for the server account. This makes moving files and logging onto the server much quicker and easier. You can start this process by entering the following code into your client terminal:
+```
+$ ssh-keygen
+```
+After the next prompt type the following (replace ```abbyblas``` with your own username):
+```
+$ /Users/abbyblas/.ssh/id_rsa
+```
+When the terminal prompts you to enter a password, just press enter. Repeat this when it asks for the password again. Next, log into your server account and enter the following command:
+```
+$ mkdir .ssh
+```
+You can use the ```exit``` command to logout and reenter the client terminal. In the client terminal, type the following (replacing my usernames with your own):
+```
+$ scp /Users/abbyblas/.ssh/id_rsa.pub cs15lsp22ajy@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+This should allow you to use ```ssh``` and ```scp``` commands without needing your password.
+
 
 ## Optimize Remote Running
