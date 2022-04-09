@@ -3,9 +3,9 @@
 ## This is basic syntax in markdown
 **Markdown** *seems* super easy.
 [Link](https://salbybba.github.io/cse15l-lab-reports/)
-[Image](file:///Users/abbyblas/Desktop/Screen%20Shot%202022-04-08%20at%206.26.56%20PM.png)
+[Image](https://www.linkpicture.com/q/Screen-Shot-2022-04-08-at-6.32.17-PM.png)
 > Those both link to this website
-'this is inline code'
+`this is inline code`
 
 * This
 * is
@@ -18,6 +18,6 @@
 4. enumerated
 5. list
 
-'''
+```
 code block
-'''
+```
