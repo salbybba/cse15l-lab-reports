@@ -29,3 +29,8 @@ Commit to GitHub:
 
 
 # Copying whole directories with ```scp -r```
+
+Using ```scp -r``` to copy markdown-parser to my ieng6 account:
+
+![](scp.png)
+
