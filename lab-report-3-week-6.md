@@ -34,3 +34,6 @@ Using ```scp -r``` to copy markdown-parser to my ieng6 account:
 
 ![](scp.png)
 
+Compiling and running JUnit tests in my ieng6 account:
+
+![](sshtests.png)
