@@ -12,3 +12,11 @@ Using ```scp```:
 ![](scpcom.png)
 
 # Setup Github Access from ieng6
+
+Stored public key in Github:
+![](pubgithub.png)
+
+Stored private key on my user account:
+![](privgithub.png)
+
+# Copying whole directories with ```scp -r```
