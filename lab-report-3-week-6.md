@@ -37,3 +37,7 @@ Using ```scp -r``` to copy markdown-parser to my ieng6 account:
 Compiling and running JUnit tests in my ieng6 account:
 
 ![](sshtests.png)
+
+Combinging ```scp```, ```;```, and ```ssh``` to copy the whole directory and run tests in one line:
+
+![](using;.png)
