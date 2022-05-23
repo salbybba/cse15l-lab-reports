@@ -17,3 +17,21 @@ JUnit output that shows the test for snippet 3 failing:
 ![](snippet2-fail1.png)
 
 ## [Repository](https://github.com/YoavGutmanUCSD/markdown-parser-2) reviewed in week 7.
+
+The tests I created for each snippet:
+
+![](snippet-tests2.png)
+
+All of the tests I created failed.
+
+JUnit output that shows the test for snippet 1 failing:
+
+
+
+JUnit output that shows the test for snippet 2 failing:
+
+![](snippet2-fail2.png)
+
+JUnit output that shows the test for snippet 3 failing:
+
+![](snippet2-fail2.png)
