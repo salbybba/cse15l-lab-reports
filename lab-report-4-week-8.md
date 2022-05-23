@@ -8,4 +8,12 @@ The tests I created for each snippet:
 
 The test that I created for snippet 1 passed, but the tests for snippet 2 and snippet 3 did not. 
 
-[Repository](https://github.com/YoavGutmanUCSD/markdown-parser-2) reviewed in week 7.
+JUnit output that shows the test for snippet 2 failing:
+
+![](snippet2-fail1.png)
+
+JUnit output that shows the test for snippet 3 failing:
+
+![](snippet2-fail1.png)
+
+## [Repository](https://github.com/YoavGutmanUCSD/markdown-parser-2) reviewed in week 7.
