@@ -26,7 +26,7 @@ All of the tests I created failed.
 
 JUnit output that shows the test for snippet 1 failing:
 
-
+![](snippet1-fail2.png)
 
 JUnit output that shows the test for snippet 2 failing:
 
