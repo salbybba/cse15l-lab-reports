@@ -60,4 +60,4 @@ JUnit output that shows `testSnippet3()` failing:
 
 ![](snippet2-fail2.png)
 
-I think this fix would be more involved. We did not account for having a link on a different line, and this essentially breaks our implementation of `markdown-parser`. This is because we read each line separately by putting them into different indeces in an Array.
+This could be a simple fix. It would have to do with identfying a new line in the markdown file. If it is identified, it would be excluded from the returned output.
