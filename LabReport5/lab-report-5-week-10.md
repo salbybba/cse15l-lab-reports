@@ -3,7 +3,7 @@
 # Finding the differences 
 To find the tests with different results, I used `vimdiff` after running a bash for loop and putting the results in a .txt file. This made the search much more autonomous and easy. By doing this process, I found that the two implementations differed in many files, but I have chosen to look at test 22 and 496
 
-**In the screenshots below, the left side is the provided implementation while the right side is my group's implementation.**
+**In the screenshots below, the left side is the results of the provided implementation while the right side is the results of my group's implementation.**
     
 # [Test 22](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/22.md)
 
