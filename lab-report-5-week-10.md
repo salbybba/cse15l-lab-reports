@@ -13,7 +13,7 @@ I don't believe that either implementation produces the correct output. I think 
 
 ![](wheretofix22.png)
 
-If I were to debug this issue, I would probably insert a call to a helper method after the highlighted for loop in the image above. It would parse through the `toReturn` string and check for quotation marks.
+If I were to debug this issue, I would probably insert a call to a helper method before or within the if statement in the image above. It would parse through the `toReturn` string and check for quotation marks.
 
 ## [Test 496](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/496.md)
 
@@ -23,4 +23,4 @@ I believe that the provided implementation had the correct output, with no links
 
 ![](wheretofix496.png)
 
-If I were to debug this issue I would 
+If I were to debug this issue I would focus on the highlighted for loop in my groups implementation, this is because there is an issue with checking the final parentheses, this bug occurs in the for loop in the image above.
