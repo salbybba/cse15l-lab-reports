@@ -11,8 +11,16 @@ To find the tests with different results, I used `vimdiff` after running a bash 
 
 I don't believe that either implementation produces the correct output. I think the correct output would be **/bar\***. This is the link shown in VSCode. I think the bug in my group's implementation is the oversight of a title. The implementation should include a part in the code that ensures there are no quotation marks indicating a title. Adding a method that checks for quotation marks should fix this issue. 
 
+![](wheretofix22.png)
+
+If I were to debug this issue, I would probably insert a call to a helper method after the highlighted for loop in the image above. It would parse through the `toReturn` string and check for quotation marks.
+
 ## [Test 496](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/496.md)
 
 ![](496.png)
 
 I believe that the provided implementation had the correct output, with no links. When I look at the preview of this file in VSCode, there is no link shown.
+
+![](wheretofix496.png)
+
+If I were to debug this issue I would 
